@@ -1,7 +1,7 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
 
-	let str= input
+
 	let freqobj= {}
 	for(let i= 0; i < str.length; i++)
 		{
@@ -23,7 +23,7 @@ function firstNonRepeatedChar(str) {
 	return null
 
 }
-const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input)); 
+// const input = prompt("Enter a string");
+// alert(firstNonRepeatedChar(input)); 
 
 
