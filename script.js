@@ -14,6 +14,13 @@ function firstNonRepeatedChar(str) {
 				freqobj[str.charAt(i) = freqobj[str.charAt(i)]] + 1
 			}
 		}
+	for(let item in freqobj)
+		{
+			if(freqobj[item] == 1){
+				return firstNonRepeatedChar
+			}
+		}
+	return null
 
 }
 const input = prompt("Enter a string");
