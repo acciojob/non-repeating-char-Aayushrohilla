@@ -17,7 +17,7 @@ function firstNonRepeatedChar(str) {
 	for(let item in freqobj)
 		{
 			if(freqobj[item] == 1){
-				return firstNonRepeatedChar
+				return item
 			}
 		}
 	return null
